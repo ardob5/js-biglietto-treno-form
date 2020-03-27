@@ -90,6 +90,7 @@ h1 {
 
 /* Post-Event container */
 #container-post-event {
+  display: none;
   background-color: #f1ffe7;
   width: 80%;
   margin: 30px 10%;
@@ -127,9 +128,10 @@ h2 {
   align-items: baseline;
 }
 
-.row1, .row2 {
+table {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+
+td {
+  text-align: center;
 }
