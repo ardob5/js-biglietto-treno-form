@@ -95,12 +95,41 @@ h1 {
   margin: 30px 10%;
   border-radius: 8px;
   border: 1px solid #000;
+  padding: 20px;
 }
+
+h2 {
+  text-align: center;
+}
+
 
 .post-event-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  border-top: 1px solid #6b717e;
+  border-bottom: 1px solid #6b717e;
+}
+
+.personal-user {
+  padding: 15px;
+  background-color: #6b717e;
+  width: 20%;
+}
+
+.details-user {
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.row1, .row2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
