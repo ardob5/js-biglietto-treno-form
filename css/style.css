@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #39a0ed;
+  font-family: 'Lora', serif;
+}
+
+/* Pre-Event container */
+#container {
+  background-color: #f1ffe7;
+  width: 80%;
+  margin: 30px 10%;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.container-small {
+  text-align: center;
+}
+
+.input-user {
+  margin-top: 5px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #39a0ed;
+}
+
+.input-user:hover {
+  cursor: pointer;
+}
+
+.input-user:focus {
+  background-color: #39a0ed;
+  border: 1px solid #000;
+  transition: 0.7s;
+}
+
+.interactive-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 10%;
+  margin-top: 30px;
+}
+
+.interactive-buttons > button {
+  padding: 7px;
+  margin: 10px;
+  background-color: #c2e7da;
+  border-radius: 8px;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: bold;
+}
+
+.interactive-buttons > button:hover {
+  cursor: pointer;
+  background-color: #39a0ed;
+  transition: 0.7s;
+}
+
+/* Post-Event container */
+#container-post-event {
+  background-color: #f1ffe7;
+  width: 80%;
+  margin: 30px 10%;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.post-event-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
